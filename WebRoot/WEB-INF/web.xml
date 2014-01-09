@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	 <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SearcherServlet</servlet-name>
+    <servlet-class>com.webcrawler.servlet.SearcherServlet</servlet-class>    
+  </servlet>
+   <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowtermsServlet</servlet-name>
+    <servlet-class>com.webcrawler.servlet.ShowtermsServlet</servlet-class>    
+  </servlet>
+   <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CompareServlet</servlet-name>
+    <servlet-class>com.webcrawler.servlet.CompareServlet</servlet-class>    
+  </servlet>
+   <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SetPageConfigServlet</servlet-name>
+    <servlet-class>com.webcrawler.servlet.SetPageConfigServlet</servlet-class>    
+  </servlet>
+  <servlet> 
+<servlet-name>BarResultsAnalysisServlet</servlet-name> 
+<servlet-class>com.webcrawler.servlet.BarResultsAnalysisServlet</servlet-class> 
+</servlet> 
+ <servlet> 
+<servlet-name>PieResultsAnalysisServlet</servlet-name> 
+<servlet-class>com.webcrawler.servlet.PieResultsAnalysisServlet</servlet-class> 
+</servlet> 
+ <servlet> 
+<servlet-name>LineResultsAnalysisServlet</servlet-name> 
+<servlet-class>com.webcrawler.servlet.LineResultsAnalysisServlet</servlet-class> 
+</servlet> 
+
+<servlet> 
+<servlet-name>WebComparsionServlet</servlet-name> 
+<servlet-class>com.webcrawler.servlet.WebComparsionServlet</servlet-class> 
+</servlet> 
+
+<servlet> 
+<servlet-name>SpidertermsServlet</servlet-name> 
+<servlet-class>com.webcrawler.servlet.SpidertermsServlet</servlet-class> 
+</servlet> 
+<servlet> 
+<servlet-name>ClearTermTableServlet</servlet-name> 
+<servlet-class>com.webcrawler.servlet.ClearTermTableServlet</servlet-class> 
+</servlet> 
+
+<servlet-mapping> 
+<servlet-name>ClearTermTableServlet</servlet-name> 
+<url-pattern>/ClearTermTableServlet</url-pattern> 
+</servlet-mapping> 
+<servlet-mapping> 
+<servlet-name>SpidertermsServlet</servlet-name> 
+<url-pattern>/SpidertermsServlet</url-pattern> 
+</servlet-mapping> 
+<servlet-mapping> 
+<servlet-name>WebComparsionServlet</servlet-name> 
+<url-pattern>/WebComparsionServlet</url-pattern> 
+</servlet-mapping> 
+<servlet-mapping> 
+<servlet-name>LineResultsAnalysisServlet</servlet-name> 
+<url-pattern>/servlet/LineResultsAnalysisServlet</url-pattern> 
+</servlet-mapping> 
+<servlet-mapping> 
+<servlet-name>PieResultsAnalysisServlet</servlet-name> 
+<url-pattern>/servlet/PieResultsAnalysisServlet</url-pattern> 
+</servlet-mapping> 
+<servlet-mapping> 
+<servlet-name>BarResultsAnalysisServlet</servlet-name> 
+<url-pattern>/servlet/BarResultsAnalysisServlet</url-pattern> 
+</servlet-mapping> 
+    <servlet-mapping>
+    <servlet-name>SetPageConfigServlet</servlet-name>
+    <url-pattern>/SetPageConfigServlet</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>CompareServlet</servlet-name>
+    <url-pattern>/CompareServlet</url-pattern>
+  </servlet-mapping>
+	 <servlet-mapping>
+    <servlet-name>ShowtermsServlet</servlet-name>
+    <url-pattern>/ShowtermsServlet</url-pattern>
+  </servlet-mapping>
+	 <servlet-mapping>
+    <servlet-name>SearcherServlet</servlet-name>
+    <url-pattern>/SearcherServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <error-page>
+  <exception-type>java.lang.NullPointerException</exception-type>
+  <location>/error/databaselinkerror.jsp</location>
+  </error-page>
+  <error-page>
+  <exception-type>404</exception-type>
+  <location>/error/error.jsp</location>
+  </error-page>
+</web-app>

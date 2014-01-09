@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="melibrary.com.genuitec.eclipse.j2eedt.core.MYECLIPSE_JAVAEE_5_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="F:/work2/jcommon-1.0.14.jar"/>
+	<classpathentry kind="lib" path="F:/work2/je-analysis-1.5.3.jar"/>
+	<classpathentry kind="lib" path="F:/work2/jeasy.jar"/>
+	<classpathentry kind="lib" path="F:/work2/jeasyrep.jar"/>
+	<classpathentry kind="lib" path="F:/work2/jfreechart-1.0.8.jar"/>
+	<classpathentry kind="lib" path="F:/work2/lucene-core-2.9.4.jar"/>
+	<classpathentry kind="lib" path="F:/work2/lucene-highlighter-4.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Apache Software Foundation/Tomcat 7.0/lib/jasper.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Apache Software Foundation/Tomcat 7.0/lib/jsp-api.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Apache Software Foundation/Tomcat 7.0/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="F:/work2/mysql-connector-java-5.1.20-bin.jar"/>
+	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
+</classpath>
